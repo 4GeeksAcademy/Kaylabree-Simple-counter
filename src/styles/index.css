@@ -1,12 +1,20 @@
-
-/* 
-
-    You can write your own styles here...
+.MainCounter{
+    text-align: center;
+    background-color: black;
+    padding-bottom:20px;
+    padding-top: 20px;
+    }
+.MainCounter div{
+    display: inline-block;
+    font-size: 70px;
+    line-height: 80px;
+    background-color: #101010;
+    color:white;
+    padding: 15px;
+    margin: 4px;
+}
+.Calendar{
+    padding-top: 10px;
+    line-height: 45px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
